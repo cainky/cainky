@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 
 
-![Metrics](/metrics.terminal.svg)
+![Metrics](/metrics.svg)
