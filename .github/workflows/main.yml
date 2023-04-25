@@ -14,11 +14,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: cainky
-          template: repository
+          template: classic
           filename: metrics.svg
           base: header, activity, community, repositories, metadata
           config_timezone: America/Toronto
+          user: cainky
           
           plugin_introduction: yes
           plugin_introduction_title: yes
@@ -33,7 +33,6 @@ jobs:
           
           plugin_stars: yes
           plugin_stars_limit: 4
-          
 #           plugin_followup: yes
 #           plugin_followup_archived: yes
 #           plugin_followup_sections: repositories
