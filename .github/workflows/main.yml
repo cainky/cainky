@@ -25,8 +25,8 @@ jobs:
 
           # Options
           user: cainky
-          template: terminal
-          filename: metrics.terminal.svg
+          template: repository
+          filename: metrics.svg
           base: header, activity, community, repositories, metadata
           config_timezone: America/Toronto
           
