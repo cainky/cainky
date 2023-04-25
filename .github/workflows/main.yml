@@ -25,32 +25,36 @@ jobs:
 
           # Options
           user: cainky
-          template: classic
+          template: terminal
+          filename: metrics.terminal.svg
           base: header, activity, community, repositories, metadata
           config_timezone: America/Toronto
-          plugin_followup: yes
-          plugin_followup_archived: yes
-          plugin_followup_sections: repositories
+          
+#           plugin_followup: yes
+#           plugin_followup_archived: yes
+#           plugin_followup_sections: repositories
+
+#           plugin_isocalendar: yes
+#           plugin_isocalendar_duration: full-year
+
           plugin_introduction: yes
           plugin_introduction_title: yes
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
+          
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          plugin_pagespeed: yes
-          plugin_pagespeed_url: .user.website
+          
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          
           plugin_stars: yes
           plugin_stars_limit: 4
+          
+          plugin_music: yes
+          plugin_music_provider: spotify
+          plugin_music_token: ${{ secrets.SPOTIFY_SECRETS }}
+          plugin_music_mode: top
+          plugin_music_top_type: tracks
+          plugin_music_time_range: short
+  
