@@ -16,7 +16,7 @@ jobs:
           # Options
           template: classic
           filename: metrics.svg
-          base: header, activity, community, repositories, metadata
+          base: header, metadata
           config_timezone: America/Toronto
           user: cainky
           
