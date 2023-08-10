@@ -16,7 +16,7 @@ jobs:
           # Options
           template: classic
           filename: metrics.svg
-          base: header, metadata
+          base: header, metadata, repositories
           config_timezone: America/Toronto
           user: cainky
           
@@ -30,12 +30,9 @@ jobs:
           
           plugin_stars: yes
           plugin_stars_limit: 4
-          plugin_followup: yes
-          plugin_followup_archived: yes
-          plugin_followup_sections: repositories
 
-#           plugin_isocalendar: yes
-#           plugin_isocalendar_duration: full-year
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
           
 #           plugin_music: yes
 #           plugin_music_provider: spotify
