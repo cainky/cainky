@@ -15,16 +15,13 @@ jobs:
 
           # Options
           user: cainky
-          template: classic
+          template: terminal
           filename: metrics.svg
-          base: header, metadata
-          base_indepth: yes
+          base: header, activity, metadata
           config_timezone: America/Toronto
 
           plugin_lines: yes
-          plugin_lines_history_limit: 2
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base, history
+          plugin_lines_sections: base
           
           plugin_stars: yes
           plugin_stars_limit: 4
